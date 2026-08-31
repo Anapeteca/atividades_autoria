@@ -1,0 +1,59 @@
+body {
+    background-color:pink;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.texto {
+    background-color: #d94f7c;
+    color: white;
+    text-align: center;
+    margin-inline-start: auto;
+    padding:20px;
+   border-radius: 20px;
+}
+
+.parag {
+    background-color: white;
+    color: #333333;
+    text-align: center;
+     margin: 20px;
+     border-radius: 20px;
+}
+
+section {
+     background-color: white;
+    text-align: center;
+    margin:20px;
+     border-radius: 20px;
+}
+figure{
+    display: inline-block;
+}
+figure img {
+    width: 200px;
+    height: 300px;
+}
+
+.marcar {
+    color: #c23b68;
+    text-align: center;
+  margin: 20px;
+   border-radius: 20px;
+}
+
+.curiosidades {
+    background-color: #fff0f5;
+    color: #333333;
+    text-align: center;
+     border-radius: 20px;
+     margin: 20px;
+}
+
+.rodape {
+    background-color: #d94f7c;
+    color: white;
+    text-align: center;
+    
+}
