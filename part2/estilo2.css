@@ -1,0 +1,66 @@
+main{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-areas:
+        "parag adoção"
+        "parag resp";
+   
+}
+body{
+    background-color:aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.texto{
+    background-color:rgb(239, 202, 255);
+    border: 20px solid palevioletred;
+    text-align:center;
+    padding:2px;
+    margin-bottom: 10px;
+    color:rgb(165, 42, 91)
+}
+.parag{
+    grid-area: parag;
+    background-color:rgb(249, 121, 181);
+    border: 10px solid rgb(27, 187, 115);
+    padding:0px;
+    margin: 10px;
+    color:rgb(196, 70, 91);
+
+}
+
+.adoção{
+    grid-area: adoção;
+    background-color:rgb(247, 255, 202);
+    border: 10px solid palevioletred;
+    padding:0px;
+    margin: 10px;
+    text-align:center;
+    color:rgb(122, 122, 38)
+}
+
+.resp{
+    grid-area: resp;
+    background-color:rgb(85, 137, 234);
+    border: 10px solid rgb(255, 125, 69);
+    padding:0px;
+    margin: 10px;
+    
+    color:blue;
+}
+
+table{
+    widht:80%;
+    text-align:center;
+    border-collapse:collapse;
+}
+th,td{
+      border: 2px solid rgb(20, 129, 18);
+    padding: 30px;
+    text-align: center;
+
+}
+footer{
+    background-color:rgb(125, 12, 173);
+   border: 5px solid purple;
+   text-align:center;
+}
